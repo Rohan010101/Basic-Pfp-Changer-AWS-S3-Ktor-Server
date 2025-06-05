@@ -14,7 +14,7 @@ import io.ktor.http.*
 import kotlin.time.Duration.Companion.hours
 
 
-val BUCKET = "aws-kotlin-test-app"
+val BUCKET = "YOUR-AWS-S3-BUCKET-NAME"
 val KEY = "profilePic/pfp.jpg"
 
 val client = HttpClient(CIO)

@@ -34,3 +34,10 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### AWS credentials ###
+*.env
+*.pem
+*.key
+.aws/
+**/aws-credentials.json
